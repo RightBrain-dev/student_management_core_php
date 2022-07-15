@@ -1,0 +1,101 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(218, 240, 232);
+    margin: 0px;
+    padding: 0px;
+}
+.login_section{
+    display: flex;
+    align-items: center;
+    padding-top:20vh ;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.main_div{
+    width: 30%;
+    padding: 10vh;
+    padding-top:1vh;
+    background-color:white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 100%;
+}
+.login_form_div{
+    text-align: left !important;
+    margin: 10px;
+}
+.form_field{
+    padding: 12px;
+}
+.login_form_div input {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.submit_button button {
+    background-color: aquamarine;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius:10%
+}
+
+.submit_button {
+    padding: 12px;
+    text-align: center;
+}
+.main-div{
+    display: flex !important;
+    /* margin: 20px; */
+    background-color: aquamarine !important;
+    color: blueviolet !important;
+    justify-content: space-between !important;
+    /* padding: 11px !important; */
+    font-size: 19px !important; 
+    align-items: baseline;
+}
+.left-menus{
+    display: inline-flex;
+    align-items: baseline;
+}
+.menu-list{
+    padding-left:10px;
+}
+.menu-item{
+    padding-left: 10px;;
+}
+.logo-menu{
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.logout-btn {
+    padding-right: 20px;
+}
+.table_div{
+    margin: 30px;
+    padding : 30px;
+}
+.table{
+    width: 100%;
+    border-radius:5px;
+    border-collapse: collapse;
+}
+th{
+    width: 10%;
+}
+#name-col{
+    width: 20%;
+}
+td{
+    text-align: center !important;
+}
+.add_btn_div{
+    text-align: right;
+    padding-bottom: 10px;
+}
