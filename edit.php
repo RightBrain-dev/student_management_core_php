@@ -126,7 +126,7 @@ if(isset($_POST['submit'])&&!empty($_POST['submit']))
                     <div class="f_div">
                         <div class="label">Address</div>
                         <div class="field">
-                            <textarea class="input-field" name="address"><?=$row['name'];?></textarea>
+                            <textarea class="input-field" name="address"><?=$row['address'];?></textarea>
                         </div>
                     </div>
                     <div class="f_div">
